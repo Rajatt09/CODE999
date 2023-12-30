@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import viteLogo from '/vite.svg'
 import './App.css'
-// import Part from './Part/Part'
+
 import Navbar from './Components/NavBar/NavBar'
 import Footer from './Components/Footer/Footer'
 import HomePage from './Components/HomePage/HomePage'
@@ -16,6 +16,7 @@ import Events from './Components/Event/Events'
 import Layout from './Components/Layout'
 import Details from './Components/Event/Details'
 import { AnimatePresence } from 'framer-motion'
+
 
 function App() {
 
@@ -72,9 +73,11 @@ function App() {
 <RouterProvider router={router}/>
 </AnimatePresence>
 
+
    
 
  
+
    </>
   )
 }

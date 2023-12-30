@@ -14,16 +14,19 @@ function Card1({pic, text1, text2, text3, text4, text5}) {
                 src={pic}
                 alt="" />
             <div class="card-body">
+
                 <h4 className='profn'>{text1}</h4>
                 <h4 className='profn'>{text2}</h4>
+
             </div>
             </div>
         </div>
         <div className="card-cont">
-       {text3} <br /><br />
+
        <h5>Date: {text4}</h5>
        <h5>Time: {text5}</h5>
        <h5>Venue: LT-4</h5>
+
 
 
         </div>
