@@ -1,12 +1,16 @@
+
 import React from 'react'
 import './Reach.css'
 import { motion } from 'framer-motion'
+import Part from '../../Part/Part'
+// import Bubble from '../../Part/Bubble'
 
 function Reachus() {
 
   return (
     <div className='rreachbox'>
-
+<Part op1 = {0.1} op2 = {0.2} sh={""} col={"#004e92"} val={80} />
+{/* <Bubble/> */}
         <div className="rcontact">
         <motion.div
         initial={{ opacity: 0 }}
@@ -96,5 +100,6 @@ function Reachus() {
     </div>
   )
 }
+
 
 export default Reachus

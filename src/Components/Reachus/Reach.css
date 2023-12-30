@@ -1,9 +1,15 @@
+
 .rreachbox {
     /* background-color: aqua; */
-    background-color: black;
+    /* background: linear-gradient(to right, #200122, #6f0000); */
     width: 100%;
     min-height: fit-content;
     font-family: 'Ubuntu', sans-serif;
+    background-image: url("../images/optica.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center center;
 }
 
 .rcontact {
@@ -222,5 +228,6 @@ border: 2px solid rgba(255, 255, 255, 0.22);
     margin: auto; */
 }
 }
+
 
 

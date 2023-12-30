@@ -88,6 +88,16 @@ p {
   font-size: 1.2em;
 }
 
+
+@media screen and (max-width: 430px) {
+  .profn {
+    font-size: 1.6vh;
+   }
+}
+
+
+
+
 @media screen and (max-aspect-ratio: 4/3) {
 
     .card:hover .card-img {
@@ -139,7 +149,9 @@ p {
    }
    .card-img {
     border: 2px solid rgba(255,255,255,0.55);
-    height: 45vw;
+
+    height: 43vw;
+
   width: 45vw;
    }
    .ccimf {
@@ -158,16 +170,22 @@ p {
     margin-bottom: 12vh;
     margin-top: 12vh;
     /* padding: auto; */
-    /* margin: auto; */
-    font-size: 3.1vw;
+
+    /* font-size: 3.1vw; */
+
     -webkit-backdrop-filter: blur(0px);
     display: block;
    }
    .card-body {
     padding: auto;
+
+    font-weight: 1vw;
    }
+  
 
 }
+
+
 
 
 

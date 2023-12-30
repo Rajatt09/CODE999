@@ -11,6 +11,11 @@
     padding-bottom: 7vh;
     padding-left: 10vh;
         padding-right: 6vh;
+        background-image: url("../images/back6.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center center;
     /* background-color: blueviolet; */
 }
 
